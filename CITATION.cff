@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this analysis code, please cite the associated article and this repository."
+title: "IPM Facial Editing Analysis Code"
+type: software
+authors:
+  - name: "Author details pending"
+repository-code: "https://github.com/Eason149/ipm-facial-editing-analysis-code"
+url: "https://github.com/Eason149/ipm-facial-editing-analysis-code"
+date-released: 2026-08-29
