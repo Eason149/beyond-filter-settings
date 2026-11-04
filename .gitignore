@@ -68,3 +68,14 @@ figures/
 Thumbs.db
 .vscode/
 .idea/
+
+# Generated analyses and local-only private inputs
+ipm_revision_round1/*
+!ipm_revision_round1/scripts/
+!ipm_revision_round1/requirements.txt
+plotting/data/
+plotting/quality_checks/
+plotting/panels/
+plotting/review_layouts/
+plotting/*.pdf
+plotting/*.png
