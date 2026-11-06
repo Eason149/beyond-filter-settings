@@ -2,6 +2,14 @@
 
 Analysis and plotting code for the study of editing operations, Geometry–Appearance–Identity (GAI) descriptors, beauty and perceived unnaturalness ratings, and viewing-period EEG. The repository distributes source code and [aggregate research results](data/aggregate/). Human-participant records, facial images, and model weights are excluded.
 
+## Data and code availability
+
+The analysis and visualization code is available at [commit `2cc32c5`](https://github.com/Eason149/beyond-filter-settings/tree/2cc32c5417d79a931ebf28fc7449a853fd12831c).
+
+The manuscript and supplementary material report aggregate estimates. Six downloadable CSV tables report behavioral and EEG contrasts, appearance-model estimates and comparisons, bootstrap intervals, and held-out prediction metrics. See the [aggregate data directory at commit `52dfc9e`](https://github.com/Eason149/beyond-filter-settings/tree/52dfc9eb6add64e82b5cb5c9e83dc45565691fef/data/aggregate) for the tables and their descriptions.
+
+Participant-level EEG recordings, trial-level behavioral records, facial stimuli, and landmark coordinates are not distributed in this repository. Access to those materials is subject to the applicable participant consent and image permissions. See [DATA_ACCESS.md](DATA_ACCESS.md) for the input layout and access notes.
+
 ## Code map
 
 | Manuscript component | Entry points |
@@ -25,3 +33,4 @@ For the R figures, supply the private figure-input CSVs named in `draw_figures.R
 ## License
 
 The adapted panel-alignment utilities are accompanied by their upstream license in `plotting/source/LICENSE-nature-skills.txt`. No additional reuse license for the authors’ code or protected data is granted by this release.
+
