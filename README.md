@@ -8,7 +8,7 @@ The analysis and visualization code is available at [commit `2cc32c5`](https://g
 
 The manuscript and supplementary material report aggregate estimates. Six downloadable CSV tables report behavioral and EEG contrasts, appearance-model estimates and comparisons, bootstrap intervals, and held-out prediction metrics. See the [aggregate data directory at commit `52dfc9e`](https://github.com/Eason149/beyond-filter-settings/tree/52dfc9eb6add64e82b5cb5c9e83dc45565691fef/data/aggregate) for the tables and their descriptions.
 
-Participant-level EEG recordings, trial-level behavioral records, facial stimuli, and landmark coordinates are not distributed in this repository. Access to those materials is subject to the applicable participant consent and image permissions. See [DATA_ACCESS.md](DATA_ACCESS.md) for the input layout and access notes.
+Participant-level EEG recordings, trial-level behavioral records, facial stimuli, and landmark coordinates are not distributed in this repository. Access to those materials is subject to the applicable participant consent and image permissions. See [DATA_ACCESS.md](DATA_ACCESS.md) for the input layout and access notes. For data access requests, please contact the author, Yi Cao, at [cy1840156@gmail.com](mailto:cy1840156@gmail.com) or [cyi06@vt.edu](mailto:cyi06@vt.edu).
 
 ## Code map
 
@@ -33,4 +33,5 @@ For the R figures, supply the private figure-input CSVs named in `draw_figures.R
 ## License
 
 The adapted panel-alignment utilities are accompanied by their upstream license in `plotting/source/LICENSE-nature-skills.txt`. No additional reuse license for the authors’ code or protected data is granted by this release.
+
 
