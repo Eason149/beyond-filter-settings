@@ -1,6 +1,6 @@
 # Beyond filter settings: How viewers judge edited faces
 
-Analysis and plotting code for the study of editing operations, Geometry–Appearance–Identity (GAI) descriptors, beauty and perceived unnaturalness ratings, and viewing-period EEG. The repository distributes source code; no human-participant records, facial images, model weights, result tables or rendered figures are included.
+Analysis and plotting code for the study of editing operations, Geometry–Appearance–Identity (GAI) descriptors, beauty and perceived unnaturalness ratings, and viewing-period EEG. The repository distributes source code and [aggregate research results](data/aggregate/). Human-participant records, facial images, and model weights are excluded.
 
 ## Code map
 

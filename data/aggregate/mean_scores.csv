@@ -1,0 +1,43 @@
+task,dimension,model,r2,rmse,mae
+new_viewers_same_images,pooled,Operations,0.14459940048492576,1.2465070060304257,0.9691515557559928
+new_viewers_same_images,beauty,Operations,0.03555768140581215,1.1782074878784328,0.9385789094147862
+new_viewers_same_images,unnaturalness,Operations,0.0721983784906585,1.3064807766728292,0.9997242020971993
+new_viewers_same_images,pooled,Operations + A2,0.16568003437510917,1.2310308048225849,0.9564187347718806
+new_viewers_same_images,beauty,Operations + A2,0.06091103966483824,1.1625987208558946,0.9284295651772879
+new_viewers_same_images,unnaturalness,Operations + A2,0.09321607475986096,1.2914493457124387,0.9844079043664731
+new_viewers_same_images,pooled,Operations + components,0.18305760997787981,1.2180756607372525,0.9499740049263489
+new_viewers_same_images,beauty,Operations + components,0.08392004984408,1.1481533920721805,0.9180364507657204
+new_viewers_same_images,unnaturalness,Operations + components,0.11044244174712965,1.2799516903320218,0.9819115590869771
+new_viewers_same_images,pooled,Operations + components + G/I,0.23564696422920517,1.1776094072970789,0.9179262870760697
+new_viewers_same_images,beauty,Operations + components + G/I,0.15521300944679572,1.101759764688373,0.8699135531732939
+new_viewers_same_images,unnaturalness,Operations + components + G/I,0.15948740384316745,1.2448307480966188,0.9659390209788455
+new_viewers_same_images,pooled,Factorial interactions + descriptors,0.2387768654665005,1.1750475887477183,0.9127652740721837
+new_viewers_same_images,beauty,Factorial interactions + descriptors,0.16076371228962388,1.0979795816443154,0.8651078523134332
+new_viewers_same_images,unnaturalness,Factorial interactions + descriptors,0.1611898140007375,1.2433683030680838,0.960422695830934
+new_viewers_same_images,pooled,Context-dependent descriptors,0.2503724697023587,1.1656257911976875,0.8995612452077697
+new_viewers_same_images,beauty,Context-dependent descriptors,0.17928104031266417,1.0854645585078446,0.8500224256051989
+new_viewers_same_images,unnaturalness,Context-dependent descriptors,0.16907706615378498,1.2368174869341384,0.9491000648103405
+new_viewers_same_images,pooled,Operations + identity by outcome,0.22345998553524868,1.1870972886214344,0.9263855733989198
+new_viewers_same_images,beauty,Operations + identity by outcome,0.1344549523104979,1.1154124524087545,0.8839676091700424
+new_viewers_same_images,unnaturalness,Operations + identity by outcome,0.15112847435724114,1.250782925150613,0.968803537627797
+new_viewers_same_images,pooled,Components + identity by outcome,0.2253184072202575,1.1856262176605221,0.9264820267301284
+new_viewers_same_images,beauty,Components + identity by outcome,0.1371181649843059,1.1136168283707266,0.8833874782570353
+new_viewers_same_images,unnaturalness,Components + identity by outcome,0.15300131717540108,1.2495462308494907,0.9695765752032216
+new_viewers_same_images,pooled,Nested selection,0.2503724697023587,1.1656257911976875,0.8995612452077697
+new_viewers_same_images,beauty,Nested selection,0.17928104031266417,1.0854645585078446,0.8500224256051989
+new_viewers_same_images,unnaturalness,Nested selection,0.16907706615378498,1.2368174869341384,0.9491000648103405
+new_viewers_same_images,pooled,Training image means,0.2583147720194101,1.159165167638324,0.8936915268132717
+new_viewers_same_images,beauty,Training image means,0.192116038705645,1.0767775281181484,0.8394470968364198
+new_viewers_same_images,unnaturalness,Training image means,0.17450861988540417,1.2324094451450196,0.9479359567901234
+new_identity_same_viewers,pooled,Operations,0.009854034131401596,1.3068290162670264,1.0189302019032913
+new_identity_same_viewers,beauty,Operations,-0.33088844308732834,1.265175477555558,1.0126986681777257
+new_identity_same_viewers,unnaturalness,Operations,-0.026884642801703107,1.3443612576536639,1.0251617356288572
+new_identity_same_viewers,pooled,Operations + A2,0.031121454402769116,1.293545750319098,1.0106784949809788
+new_identity_same_viewers,beauty,Operations + A2,-0.255199854875329,1.2308014622054397,0.9896846344118103
+new_identity_same_viewers,unnaturalness,Operations + A2,-0.03932564668066943,1.3521094705262415,1.031672355550147
+new_identity_same_viewers,pooled,Operations + components,-0.00808147137500606,1.3146443271360382,1.0336478463671024
+new_identity_same_viewers,beauty,Operations + components,-0.3490360591882843,1.2766963027597844,1.0218903264020938
+new_identity_same_viewers,unnaturalness,Operations + components,-0.04332495553541521,1.351014414003408,1.045405366332111
+new_identity_same_viewers,pooled,Nested selection,-0.005938884558564422,1.3219147043551838,1.0305713963804999
+new_identity_same_viewers,beauty,Nested selection,-0.3219604626403349,1.2709273590845793,1.0061615156317636
+new_identity_same_viewers,unnaturalness,Nested selection,-0.060680446182447584,1.3685794036236192,1.0549812771292362
